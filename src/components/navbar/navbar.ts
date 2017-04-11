@@ -111,7 +111,7 @@ export class Navbar extends ToolbarBase {
 
     this._bbIcon = config.get('backButtonIcon');
     this._sbPadding = config.getBoolean('statusbarPadding');
-    this._backText = config.get('backButtonText', 'Back');
+    this._backText = config.get('backButtonText', '返回');
   }
 
 
